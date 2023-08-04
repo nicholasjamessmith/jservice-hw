@@ -31,6 +31,7 @@ function ControlledForm(props) {
   //Information to be "returned" / displayed in broswer
   return <div>
     <h1>Welcome to Jeopardy!</h1>
+    <h2>Let's Play!</h2>
     <button onClick={handleSubmit}>Get Question</button>
   </div>
 }
